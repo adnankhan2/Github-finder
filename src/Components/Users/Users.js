@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
      else{
 
         return (
-            <div style={userStyle}>
+            <div className= 'userStyle grid repeat(3 ,1fr) 1rem' >
                 {users.map(user=>(
                     <UserItem key={user.id} user= {user}/>
                 ))}
@@ -23,12 +23,6 @@ import PropTypes from 'prop-types'
 Users.prototype={
     users:PropTypes.array.isRequired,
     loading:PropTypes.bool.isRequired,
-}
-const userStyle={
-    display: 'grid',
-    gridTemplateColums :'repeat(4 ,1fr)',
-    gridGap :'1rem',
-  
 }
 
 export default Users
