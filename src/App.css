@@ -416,5 +416,5 @@ table th {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 1rem;
-  margin: auto;
+padding: 1rem;
 }
