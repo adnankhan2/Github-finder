@@ -266,7 +266,7 @@ img {
 .badge-dark,
 .alert-dark {
   background: var(--dark-color);
-  color: #fff;
+  color: rgb(204, 66, 66);
 }
 
 .btn-danger,
